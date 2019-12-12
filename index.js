@@ -1,18 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Timer } from "./timer";
-import { TODO } from "./TODO";
+import './index.css'
+import App from './app'
 
 
-
-
-const App = () => {
-    return (
-        <div style={{margin:'10%'}}>
-        <Timer/>
-        <br/>
-        <TODO/>
-        </div>
-    );
-};
 ReactDOM.render(<App />, document.getElementById("root"));
